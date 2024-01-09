@@ -32,6 +32,13 @@
         return;
     }
 
+    if (isset($_POST['flavor'])) {
+        $flavors = $_POST['flavor'];
+    } else {
+        echo "<p>Please select a flavor</p>";
+        return;
+    }
+
     $flavors = $_POST['flavor'];
     $flavorString = implode(", ", $flavors);
     $cone = $_POST['cone'];
