@@ -35,9 +35,10 @@
 
     echo "<p>$scoops scoops</p>";
     echo "<p>Favors: $flavorString</p>";
-    echo "<p>Cone: $cone</p>"
-
-
+    echo "<p>Cone: $cone</p>";
+    echo "<p>Subtotal: $subTotal</p>";
+    echo "<p>Tax: $tax</p>";
+    echo "<p>Total: $total</p>";
 
     ?>
 
