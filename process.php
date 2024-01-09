@@ -10,6 +10,21 @@
 <body>
     <h1>Thank you for your order</h1>
 
+    <?php
+        echo "<pre>";
+        var_dump($_POST);
+        echo "</pre>";
+
+        $scoops = $_POST['scoops'];
+        $flavors = $_POST['flavor'];
+        $flavorString = implode(", ", $flavors);
+
+        echo "<p>$scoops scoops</p>";
+        echo "<p>Favors: $flavorString</p>";
+
+
+    ?>
+
 </body>
 </html>
 
